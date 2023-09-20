@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ssfi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-776-0026-tenant/ci10t-776-0026-app/devfile-sample-ssfi@sha256:1ee47501b19ffb7586b0e1c62b3c7cccec9d48e4be757492e74cd5e4c7a0973a
         name: my-nodejs
         ports:
         - containerPort: 3001
